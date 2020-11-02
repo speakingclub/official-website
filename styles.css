@@ -8,6 +8,9 @@ body {
     background-color: #e8ffff !important;
 }
 
+
+/* ===== NAVBAR ====== */
+
 .logo {
     height: 50px;
     width: 60px;
@@ -17,9 +20,6 @@ body {
     width: 120px;
     height: 40px;
 }
-
-
-/* ===== Navbar stuff ====== */
 
 .navbar {
     background-color: #19d3da;
@@ -102,19 +102,6 @@ nav a:hover {
     transition: all 0.5s;
 }
 
-
-/* .icons a i.fa-instagram {
-    color: #dd2a7b;
-}
-
-.icons a i.fa-linkedin {
-    color: #0075b5;
-}
-
-.icons a i.fa-youtube {
-    color: #e62117;
-} */
-
 .f {
     width: 20px;
     height: 20px;
@@ -134,6 +121,9 @@ nav a:hover {
     background-color: #e62117;
     color: white;
 }
+
+
+/* ===== HOME SECTION ===== */
 
 .home-img {
     height: 400px;
@@ -171,16 +161,6 @@ nav a:hover {
     margin-left: 40px;
 }
 
-
-/* span {
-    transition: all 6s ease;
-    color: #150485;
-}
-
-span.fade {
-    color: #db6400;
-} */
-
 .tagline {
     position: relative;
     font-weight: 900;
@@ -196,6 +176,9 @@ span.fade {
     padding-bottom: 0.1em; */
     overflow: hidden;
 }
+
+
+/* ===== ABOUT SECTION ===== */
 
 #about {
     margin-top: 200px;
@@ -229,10 +212,103 @@ span.fade {
     text-align: center;
 }
 
+
+/* ===== COMMUNITY SECTION ===== */
+
+
+/* #community {
+    text-align: center !important;
+} */
+
+
+/* .image {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+} */
+
+.container {
+    width: 1000px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .box {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 50%;
+    /* z-index: -1; */
+}
+
+.container .box .imgBox {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.container .box .imgBox img {
+    max-width: 100%;
+    transition: transform 0.5s;
+}
+
+.container .box:hover .imgBox img {
+    transform: scale(1.1) !important;
+}
+
+.container .box .details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    transform: scaleY(0);
+    transition: transform 0.5s;
+    border-radius: 50%;
+}
+
+.container .box:hover .details {
+    transform: scaleY(1);
+}
+
+.container .box .details .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.container .box .details .content h3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    color: #01a9b4;
+}
+
+.container .box .details .content p {
+    margin: 10px 0 0;
+    padding: 0px;
+}
+
+
+/* ===== REGISTER SECTION ===== */
+
 #register {
     text-align: center;
     margin-top: 50px;
 }
+
+
+/* ===== CONTACT SECTION ===== */
 
 #contact {
     margin-top: 50px;
