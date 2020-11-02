@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #e8ffff !important;
@@ -49,12 +54,93 @@ nav a:hover {
     padding: 6px 0;
 }
 
+
+/* ===== FLOATING SOCIAL MEDIA ICONS ===== */
+
+.icons {
+    position: fixed;
+    top: 20%;
+    right: 0%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2px;
+    text-align: left;
+    border-radius: 50px 0px 0px 50px;
+    transform: translate(140px, 0px);
+    transition: all 0.5s;
+}
+
+.icons a:hover {
+    transform: translate(0px, 0px);
+    text-decoration: none;
+    color: white;
+}
+
+.icons a:hover img {
+    transform: rotate(360deg);
+    transform: translate(0px, 0px);
+}
+
+.icons a img {
+    margin-right: 20px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+
+/* .icons a i.fa-instagram {
+    color: #dd2a7b;
+}
+
+.icons a i.fa-linkedin {
+    color: #0075b5;
+}
+
+.icons a i.fa-youtube {
+    color: #e62117;
+} */
+
+.f {
+    width: 20px;
+    height: 20px;
+}
+
+.instagram {
+    background-color: #dd2a7b;
+    color: white;
+}
+
+.linkedin {
+    background-color: #0075b5;
+    color: white;
+}
+
+.youtube {
+    background-color: #e62117;
+    color: white;
+}
+
 .home-img {
     height: 400px;
     width: 500px;
     display: block;
     position: absolute;
-    right: 30px;
+    right: 130px;
     top: 150px;
 }
 
