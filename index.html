@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">s
 
     <!-- ===== Bootstrap CDN ===== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -47,10 +50,7 @@
                         <a class="nav-link" href="#community">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Events/Competitions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#events">Event Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#register">Register</a>
@@ -229,6 +229,60 @@
         </div>
     </section>
 
+    <br>
+    <br>
+    <!-- ===== EVENTS ===== -->
+
+    <h2 class="section-heading">Event Gallery</h2>
+    <section id="events">
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="media/events/mindedu1.jpg" alt="" style="width:70%; margin: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="media/events/mindedu2.jpg" alt="" style="width:70%; margin: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="media/events/week1.jpg" alt="" style="width:70%; margin: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="media/events/week2.jpg" alt="" style="width:70%; margin: auto;">
+                    </div>
+
+                    <div class="item">
+                        <img src="media/events/orators.jpg" alt="" style="width:70%; margin: auto;">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
 
     <!-- ===== REGISTER SECTION ===== -->
     <section id="register">
@@ -238,39 +292,15 @@
     </section>
 
     <!-- ===== CONTACT SECTION ===== -->
-    <section id="contact">
-        <span id="hs_cos_wrapper_module_147680614068526149" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_raw_html" style="" data-hs-cos-general-type="widget" data-hs-cos-type="raw_html"><div class="contact-section-wrapper hs-page-width-normal">
-            <div class="contact-box-wrapper">
-            <div class="contact-box">
-             <img class="contact-box-item logo" src="https://www.hubspot.com/hubfs/Contact%20Us/phone.svg">
-            <span class="contact-box-item title">Talk to us!</span>
-            <span class="contact-box-item blurb">Interested to know more about the club? Talk to us!</span>
-            <span class="contact-box-item number">
-            <span>Srinija : +917013811599</span>
-            <span> Nanda : +918431822071</span>
-            <span>Jeevan : +919206936735</span>
-            <span class="hsg-nav__link-label hsg-nav__link-label--phone">
-        </span>
-            </a>
-            <noscript>
-            <a href="tel:+18578295060" class="hsg-nav__link">
-            <span class="hsg-nav__link-label hsg-nav__link-label--phone">
-            <span>+1 857 829 5060</span>
-            </span>
-            </a>
-            </noscript>
-            </span>
-            <a class="contact-box-item link" href="#contact-numbers-section">W</a>
-            </div>
-            <div class="contact-box">
-            <img class="contact-box-item logo" src="https://www.hubspot.com/hubfs/Contact%20Us/chat.svg">
-            <span class="contact-box-item title">E-mail Support</span>
-            <span class="contact-box-item blurb">Or would you rather reach to us by email?</span>
-            <a class="cta cta--blue contact-sales" href="mailto:scgubangalore@gmail.com">Mail us!</a>
-            </div>
-            </div>
-            </div></span>
-    </section>
+    <!-- <section id="contact">
+        <h2 class="section-heading" style="font-size: 24px;">Any queries? Or do you want to catch up some time? Leave a message here!</h2>
+        <p class="contact-para">Please fill out this quick form and we will be in touch with lightening speed!⚡</p>
+    </section>  -->
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© Copyright 2020, All Rights Reserved Speaking Club - GITAM</p>
+    </footer>
 
 </body>
 <script src="index.js"></script>
